@@ -45,7 +45,7 @@ async def process_callback_button1(callback_query: types.CallbackQuery):
     await bot.send_message(
         callback_query.from_user.id,
         'Стоимость одного килограма дружков-крендельков составляет два '
-        'пирожка украшенных ста граммами глаз креветок!'
+        'пирожка украшенных ста граммами глаз королевских креветок!'
     )
 
 
