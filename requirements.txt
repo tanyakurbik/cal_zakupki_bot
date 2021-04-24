@@ -1,0 +1,3 @@
+aiogram>2
+PyYAML>5
+python-dateutil~=2.8.1
