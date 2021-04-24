@@ -1,3 +1,0 @@
-aiogram>2
-PyYAML>5
-python-telegram-bot-calendar>1
