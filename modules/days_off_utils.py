@@ -22,7 +22,7 @@ class DaysOff:
         result_date = start_date
         for _ in range(number_of_workdays):
             result_date += timedelta(days=1)
-            if self.is_day_off(result_date):
+            while self.is_day_off(result_date):
                 result_date += timedelta(days=1)
         return result_date
 
